@@ -1,0 +1,103 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+    .about__title {
+        position: relative;
+        h1 {
+            padding: 0px 30px;
+            font-size: 80px;
+            font-weight: 600;
+        }
+        img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+        }
+    }
+    .about__sections {
+        display: flex;
+        gap: 80px;
+        .about__left img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .about__right {
+            display: flex;
+            flex-direction: column;
+            gap: 80px;
+            .about__texts {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .about__skills {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                .about__skill {
+                    display: flex;
+                    gap: 50px;
+                    align-items: center;
+                    transition: 0.3s;
+                    p {
+                        min-width: 150px;
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                    .skill__bar {
+                        flex:1;
+                        height: 8px;
+                        border-radius: 50px;
+                        background-color: #ffffff33;
+                        overflow: hidden;
+                        .skill__bar-fill {
+                            width: 50%;
+                            height: 8px;
+                            border-radius: 50px;
+                            background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+                        }
+                    }
+                }
+                .about__skill:hover {
+                    transform: scale(1.10);
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+    .about__soft-skills {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 80px;
+        .about__soft-skill {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            transition: 0.5s;
+            img {   
+                width: 60px;
+                font-weight: 700;
+            }
+            h2 {
+                font-size: 60;
+            }
+            p{
+                margin: 0 30px;
+                font-size: 500;
+                font-weight: 500;
+            }
+        }
+        .about__soft-skill:hover {
+            transform: scale(1.10);
+            transition: 0.5s;
+        }
+    }
+}
