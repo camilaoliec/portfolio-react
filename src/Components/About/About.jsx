@@ -8,7 +8,7 @@ import brain_icon from '../../assets/brain_icon.svg'
 
 const About = () => {
   return (
-    <div className='about'>
+    <section className='about'>
         <div className="about__title">
             <h1>À propos de moi</h1>
             <img src={theme_pattern} alt="" />
@@ -65,7 +65,7 @@ const About = () => {
                 <p>Toujours prête à anticiper les besoins et à passer à l’action sans attendre.</p> 
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 
