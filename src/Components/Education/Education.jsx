@@ -14,10 +14,10 @@ const Education = () => {
       <div className="education__container">
         {Education_Data.map((education,index)=>{
             return <div key={index} className="education__format">
-                <h3>{education.s_date}</h3>
-                <h2>{education.s_name}</h2>
-                <h4>{education.s_school}</h4>
-                <p>{education.s_desc}</p>
+                <h3>{education.e_date}</h3>
+                <h2>{education.e_name}</h2>
+                <h4>{education.e_school}</h4>
+                <p>{education.e_desc}</p>
                 <div className="education__readmore">
                     <p>Savoir plus</p>
                     <img src={arrow_icon} alt="" />
