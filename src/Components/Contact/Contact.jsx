@@ -1,9 +1,12 @@
 import React from 'react'
 import './Contact.scss'
 import theme_patthern from '../../assets/theme_pattern.svg'
-import mail_icon from '../../assets/mail_icon.svg'
-import location_icon from '../../assets/location_icon.svg'
-import call_icon from '../../assets/call_icon.svg'
+import mail_icon from '../../assets/mail_icon-contact.svg'
+import call_icon from '../../assets/call_icon-contact.svg'
+import linkedin_icon from '../../assets/linkedin_icon-contact.svg'
+import github_icon from '../../assets/github_icon-contact.svg'
+import location_icon from '../../assets/location_icon-contact.svg'
+
 
 const Contact = () => {
   return (
@@ -22,6 +25,14 @@ const Contact = () => {
                 <div className="contact__detail">
                     <img src={call_icon} alt="" />
                     <p>+33 6 08 00 73 62</p>
+                </div>
+                <div className='contact__detail'>
+                  <img src={linkedin_icon} alt="" />
+                  <a href="https://www.linkedin.com/in/camilamedeiros/">Linkedin</a>
+                </div>
+                <div className='contact__detail'>
+                  <img src={github_icon} alt="" />
+                  <a href="https://github.com/camilaoliec">Github</a>
                 </div>
                 <div className="contact__detail">
                     <img src={location_icon} alt="" />

@@ -12,7 +12,7 @@ const Profile = () => {
         experience in multiple companies like Microsoft, Tesla and Apple.
       </p>
       <div className="profile__action">
-        <div className="profile__connect">connectez-vous avec moi</div>
+        <div className="profile__connect">Contactez-moi</div>
         <div className="profile__resume">Télécharger mon CV</div>
       </div>
     </section>

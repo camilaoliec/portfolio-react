@@ -30,19 +30,34 @@
             p {
                 max-width: 550px;
                 color: #D8D8D8;
-                font-size: 20px;
-                line-height: 35px;
+                font-size: 18px;
+                line-height: 25px;
             }
             .contact__details {
                 display: flex;
                 flex-direction: column;
                 gap: 30px;
-                color: #D8D8D8;
                 font-size: 22px;
                 .contact__detail {
                     display: flex;
                     align-items: center;
                     gap: 20px;
+                    img {
+                        width: 25px;
+                    }
+                    p {
+                        color: #D8D8D8;
+                        font-size: 16px;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: #D8D8D8;
+                        font-size: 16px;
+                        transition: transform 0.3s ease;
+                    }
+                    a:hover {
+                        transform: scale(1.30);
+                    }
                 }
             }
         }
