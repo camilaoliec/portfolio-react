@@ -8,7 +8,7 @@ import brain_icon from '../../assets/brain_icon.svg'
 
 const About = () => {
   return (
-    <section className='about'>
+    <section id='Apropos' className='about'>
         <div className="about__title">
             <h1>À propos de moi</h1>
             <img src={theme_pattern} alt="" />
@@ -19,8 +19,8 @@ const About = () => {
             </div>
             <div className="about__right">
                 <div className="about__texts">
-                    <p>Mauris maximus, erat in accumsan euismod, sapien est porta eros, ac venenatis neque purus id nisl. Maecenas ut tortor sed risus porta tincidunt vel vel mauris. Nullam porttitor, risus sit amet vehicula suscipit, lectus nulla dapibus turpis, sed tempor odio risus quis enim. Proin id porta lacus.</p>
-                    <p>Vestibulum laoreet lobortis tellus at pulvinar. Morbi vitae nisl nisi. Vestibulum suscipit finibus ligula, eget feugiat enim maximus eu. </p>
+                    <p>Formée au théâtre et passionnée par l’art, j’ai trouvé dans le développement web un nouveau moyen d’expression. Mon parcours m’a permis de développer une forte sensibilité visuelle, de la rigueur et un esprit créatif. Aujourd’hui, je conçois des interfaces modernes et accessibles, en combinant sens artistique et logique technique.</p>
+                    <p>Toujours curieuse, j’aime apprendre de nouvelles technologies, relever des défis et travailler en équipe pour transformer des idées en expériences numériques.</p>
                 </div>
                 <div className="about__skills">
                     <div className="about__skill"><p>HTML</p>

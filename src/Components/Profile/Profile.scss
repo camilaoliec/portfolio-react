@@ -32,23 +32,29 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 50px;
+    max-width: 850px;
     .profile__connect {
       padding: 25px 45px;
       border-radius: 50px;
       background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
       cursor: pointer;
+      text-decoration: none;
+      max-width: 371px;     
     }
     .profile__connect:hover {
       border: 2px solid white;
+      color: white;
     }
     .profile__resume {
       padding: 25px 75px;
       border-radius: 50px;
       border: 2px solid #fff;
       cursor: pointer;
+      max-width: 371px;
     }
     .profile__resume:hover {
       border-color: #b415ff;
+      color: #b415ff;
     }
   }
 }

@@ -5,7 +5,7 @@ import myprojects_data from '../../assets/myprojects_data'
 
 const MyProjects = () => {
   return (
-    <section className='myprojects'>
+    <section id='Projets' className='myprojects'>
       <div className="myprojects__title">
         <h1>Mes projets</h1>
         <img src={theme_pattern} alt="" />
