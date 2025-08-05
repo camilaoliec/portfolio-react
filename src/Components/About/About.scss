@@ -101,3 +101,60 @@
         }
     }
 }
+@media(max-width: 768px) {
+    .about {
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+        .about__title {
+            h1 {
+                font-size: 50px;
+                padding: 0;
+            }
+            img {
+                width: 130px;
+                right: -20px;
+            }
+        }
+        .about__sections {
+            flex-direction: column;
+            .about__left {
+                display: none;
+            }
+            .about__right {
+                .about__texts p {
+                font-size: 18px;
+                line-height: 32px;
+                }
+                .about__skills {
+                    .about__skill {
+                        gap: 20px;
+                        align-items: center;
+                    }
+                    p {
+                        font-size: 20px;
+                    }  
+                    hr {
+                        height: 6px;
+                    }
+                }
+            }
+        }
+        .about__soft-skills {
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 30px;
+            .about__soft-skill {
+                gap: 10px;
+                h2 {
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+                p {
+                    text-align: center;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
