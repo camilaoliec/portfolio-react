@@ -1,5 +1,5 @@
 .footer { 
-    margin: 50px 10%;
+    margin: auto 10% 50px 10%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -21,6 +21,7 @@
         .footer__top-right {
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             gap: 40px;
             .footer__col {
                 display: flex;
@@ -58,4 +59,26 @@
             margin-left: 10px;
         }
     }
+}
+@media(max-width:1025px) {
+    .footer {
+        margin: 50px 70px;
+        .footer__top {
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            .footer__top-left {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+        .footer__bottom {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 10px;
+        }
+    }
+
 }

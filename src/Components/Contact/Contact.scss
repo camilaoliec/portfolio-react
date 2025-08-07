@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: auto 170px;
     .contact__title {
         position: relative;
         h1 {
@@ -26,7 +26,7 @@
         .contact__left {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 15px;
             p {
                 max-width: 550px;
                 color: #D8D8D8;
@@ -38,6 +38,7 @@
                 flex-direction: column;
                 gap: 30px;
                 font-size: 22px;
+                margin-top: 50px;
                 .contact__detail {
                     display: flex;
                     align-items: center;
@@ -107,6 +108,55 @@
             .contact__submit:hover {
                transform: scale(1.1);
                transition: 0.3s; 
+            }
+        }
+    }
+}
+@media(max-width:1200px) {
+    .contact {
+        gap: 50px;
+        margin: auto 70px;
+        align-items: start;
+        .contact__title {
+            h1 {
+            padding: 0;
+            font-size: 50px;
+            font-weight: 600;
+            }
+            img {
+                width: 130px;
+                margin-right: -20px;
+            }
+        }
+        .contact__section {
+            flex-direction: column;
+            .contact__left {
+                p {
+                   font-size: 18px; 
+                }
+                .contact__detail {
+                    gap: 20px;
+                    img {
+                       width: 25px; 
+                    }
+                }
+            }
+            .contact__right {
+                label {
+                    font-size: 20px;
+                }
+                input {
+                    width: 100%;
+                    font-size: 20px;
+                }
+                textarea {
+                    width: 95%;
+                    font-size: 20px;
+                }
+            }
+            .contact__submit {
+                font-size: 20px;
+                padding: 15px 40pw;
             }
         }
     }

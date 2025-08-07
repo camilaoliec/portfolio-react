@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: auto 170px;
     .about__title {
         position: relative;
         h1 {
@@ -101,10 +101,21 @@
         }
     }
 }
+@media(max-width:1120px) {
+    .about__sections {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__soft-skills {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+    }
+}
 @media(max-width: 768px) {
     .about {
         gap: 80px;
-        margin: 50px 70px;
+        margin: 50px 6%;
         align-items: start;
         .about__title {
             h1 {
@@ -128,26 +139,24 @@
                 }
                 .about__skills {
                     .about__skill {
-                        gap: 20px;
+                        gap: 5px;
                         align-items: center;
-                    }
-                    p {
-                        font-size: 20px;
-                    }  
-                    hr {
-                        height: 6px;
+                        
+                        p {
+                            font-size: 16px;
+                        }  
+                        hr {
+                            height: 6px;
+                        }
                     }
                 }
             }
         }
         .about__soft-skills {
-            flex-direction: column;
-            justify-content: space-between;
-            gap: 30px;
             .about__soft-skill {
                 gap: 10px;
                 h2 {
-                    font-size: 25px;
+                    font-size: 22px;
                     font-weight: 700;
                 }
                 p {

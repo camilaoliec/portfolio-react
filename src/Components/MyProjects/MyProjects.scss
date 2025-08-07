@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: auto 10%;
     .myprojects__title {
         position: relative;
         h1 {
@@ -22,20 +22,98 @@
     .myprojects__container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 40px;
+        gap: 30px;
         margin-bottom: 80px;
-        img {
-            box-sizing: border-box;
-            width: 419px;
-            height: 280px;
-            transition: 0.3s;
-            cursor: pointer;
-        }
-        img:hover {
-            transform: scale(1.10);
-            border: 4px solid #ff00ff;
-            border-radius: 10px;
-            transition: 0.3s;
+        .project {
+            position: relative;
+            img {
+                border-radius: 10px;
+                width: 100%;
+                transition: 0.3s;
+                &:hover {
+                    outline: 4px solid #ff00ff;
+                    outline-offset: 0;
+                    border-radius: 10px;
+                    transform: scale(1.05);
+                    transition: 0.3s;
+                }
+            }
+            .project__description {
+                margin: 40px 0px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                height: auto;
+                h2 {
+                    font-family: 'outfit';
+                    font-size: 22px;
+                }
+                p {
+                    font-family: 'outfit';
+                    font-weight: 400;
+                    font-size: 18px;
+                }
+                h4 {
+                    font-size: 'outfit';
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #d8d8d8;
+                }
+                .project__links {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    :hover {
+                    transform: scale(1.1);
+                    transition: 0.3s; 
+                }
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        border: none;
+                        color: white;
+                        border-radius: 50px;
+                        background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+                        font-size: 22px;
+                        padding: 10px 10px;
+                        cursor: pointer;
+                        transition: 0.3s;
+                        text-decoration: none;
+                    }
+                }
+    
+            }
         }
     }
+}
+@media(max-width:1115px){
+    .myprojects {
+        .myprojects__container {
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 0px;
+        }
+    }
+}
+@media(max-width:768px){
+    .myprojects {
+        gap: 50px;
+        margin: auto 6%;
+        align-items: start;
+        .myprojects__container {
+            grid-template-columns: 1fr;
+            gap: 20px;
+            .myprojects__title {
+                h1 {
+                    padding: 0;
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+            }
+            img {
+                width: 130px;
+                margin-right: -20px;
+            }
+        }
+    }
+    
 }
