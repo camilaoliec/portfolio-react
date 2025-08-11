@@ -20,9 +20,9 @@ const closeMenu = () => {
   return (
     <section className='nav'>
       <img src={Logo} alt="Logo du site" />
-      <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>{}
+      <img src={menu_open} onClick={openMenu} alt="menu" className='nav-mob-open'/>{}
       <ul ref={menuRef} className="nav__menu">
-        <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
+        <img src={menu_close} onClick={closeMenu} alt="fermer" className="nav-mob-close" />
         <li>
           <a href="#Accueil" onClick={()=>setMenu("Accueil")} 
           aria-current={menu==="Accueil" ? "page" : "undefined"}>

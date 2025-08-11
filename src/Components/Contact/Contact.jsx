@@ -47,22 +47,22 @@ export default function Contact() {
             <p>Je vous répondrai dans les plus brefs délais.</p>
             <div className="contact__details">
                 <div className="contact__detail">
-                <img src={mail_icon} alt="" /> <p>potycamila@gmail.com</p>
+                <img src={mail_icon} alt="e-mail" /> <p>potycamila@gmail.com</p>
                 </div>
                 <div className="contact__detail">
-                    <img src={call_icon} alt="" />
+                    <img src={call_icon} alt="telephone" />
                     <p>+33 6 08 00 73 62</p>
                 </div>
                 <div className='contact__detail'>
-                  <img src={linkedin_icon} alt="" />
+                  <img src={linkedin_icon} alt="Linkedin" />
                   <a href="https://www.linkedin.com/in/camilamedeiros/">Linkedin</a>
                 </div>
                 <div className='contact__detail'>
-                  <img src={github_icon} alt="" />
+                  <img src={github_icon} alt="github" />
                   <a href="https://github.com/camilaoliec">Github</a>
                 </div>
                 <div className="contact__detail">
-                    <img src={location_icon} alt="" />
+                    <img src={location_icon} alt="emplacement" />
                     <p>Thonon-les-Bains, France</p>
                 </div>
             </div>

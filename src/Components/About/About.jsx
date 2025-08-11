@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <div className="about__sections">
             <div className="about__left">
-                <img src={about_profile} alt="" />
+                <img src={about_profile} alt="Photo de Camila Medeiros, développeuse front-end" />
             </div>
             <div className="about__right">
                 <div className="about__texts">
@@ -48,20 +48,20 @@ const About = () => {
         </div>
         <div className="about__soft-skills">
             <div className="about__soft-skill">
-                <img src={theater_masks} alt="" />
+                <img src={theater_masks} alt="masques de théâtre" />
                 <h2>Traveil d'équipe et coopération</h2>
                 <p>8 ans sur scène et en pédagogie m’ont appris à collaborer avec écoute et fluidité</p>
             </div>
             <hr />
             <div className="about__soft-skill">
-                <img src={paint_pallette} alt="" />
+                <img src={paint_pallette} alt="palette de peinture" />
                 <h2>Créative</h2>
                 <p>Artiste dans l'âme, je peins à l’aquarelle et trouve des solutions avec créativité.</p> 
             </div>
             <hr />
             
             <div className="about__soft-skill">
-                <img src={brain_icon} alt="" /><h2>Proactive</h2>
+                <img src={brain_icon} alt="cerveau" /><h2>Proactive</h2>
                 <p>Toujours prête à anticiper les besoins et à passer à l’action sans attendre.</p> 
             </div>
         </div>

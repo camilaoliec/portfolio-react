@@ -30,7 +30,7 @@ const Education = () => {
                 )}
                 <div className="education__readmore" onClick={() => toggleMore(index)}>
                     <p>{activeIndex === index ? "Voir moins" : "Savoir plus"}</p>
-                    <img src={arrow_icon} alt="" />
+                    <img src={arrow_icon} alt="flèche" />
                 </div>
             </div>
           ))}

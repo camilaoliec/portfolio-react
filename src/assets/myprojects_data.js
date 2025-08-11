@@ -10,7 +10,7 @@ const myprojects_data = [
         p_title:"OhMyFood",
         p_description:"Création d’un site mobile-first à partir de maquettes Figma, avec animations CSS pour améliorer l’expérience utilisateur.",
         p_technos:"Technos utilisées : HTML5, Sass (SCSS), CSS3, Font Awesome, Figma",
-        p_code_link:"github.com/camilaoliec/OhMyFood"
+        p_code_link:"https://github.com/camilaoliec/OhMyFood"
     },
     {
         p_img:project2_img,
@@ -39,7 +39,7 @@ const myprojects_data = [
         p_title:"Argent Bank",
         p_description:"Création d’un tableau de bord utilisateur avec authentification sécurisée, gestion du profil via Redux et documentation de l’API avec Swagger.",
         p_technos:"Technos utilisées : React, Redux Toolkit, React Router, Sass, Swagger, API REST & GitHub",
-        p_code_link:"https://github.com/camilaoliec/ArgentBank"
+        p_code_link:"https://github.com/camilaoliec/ArgentBank-Frontend"
 
     },
 

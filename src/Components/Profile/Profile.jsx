@@ -5,7 +5,7 @@ import profile_img from "../../assets/profile_img.svg";
 const Profile = () => {
   return (
     <section id="Accueil" className="profile">
-      <img src={profile_img} alt="" />
+      <img src={profile_img} alt="photo de Camila Medeiros" />
       <h1><span>Camila Medeiros,</span> développeuse front-end</h1>
       <p>
         Développeuse front-end passionnée par la création de sites web modernes, réactifs et accessibles.

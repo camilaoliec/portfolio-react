@@ -14,7 +14,7 @@ const MyProjects = () => {
         {myprojects_data.map((projects,index)=>{
             return (
               <div key={index} className="project">
-                <img src={projects.p_img} alt="" />
+                <img src={projects.p_img} alt="image du projet" />
                 <div className="project__description">
                   <h2>{projects.p_title}</h2>
                   <p>{projects.p_description}</p>

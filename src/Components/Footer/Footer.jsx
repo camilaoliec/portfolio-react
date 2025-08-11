@@ -12,7 +12,7 @@ const Footer = () => {
     <section className="footer">
       <div className="footer__top">
         <div className="footer__top-left">
-          <img src={footer_logo} alt="" />
+          <img src={footer_logo} alt="logo - Camila" />
           <p>
             Développement web avec la sensibilité d'une artiste.
           </p>
@@ -20,21 +20,21 @@ const Footer = () => {
         <div className="footer__top-right">
           <div className="footer__col">
             <div className="footer__contact">
-              <img src={mail_icon} alt="" />
+              <img src={mail_icon} alt="e-mail" />
               <p>potycamila@gmail.com</p>
             </div>
             <div className="footer__contact">
-              <img src={call_icon} alt="" />
+              <img src={call_icon} alt="telephone" />
               <p>+33 6 08 00 73 62</p>
             </div>
           </div>
           <div className="footer__col">
             <div className="footer__contact">
-              <img src={linkedin_icon} alt="" />
+              <img src={linkedin_icon} alt="linkedin" />
               <a href="https://www.linkedin.com/in/camilamedeiros/">Linkedin</a>
             </div>
             <div className="footer__contact">
-              <img src={github_icon} alt="" />
+              <img src={github_icon} alt="github" />
               <a href="https://github.com/camilaoliec">Github</a>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="footer__bottom">
         <p>© 2025 Camila Medeiros.</p>
         <p>Tous droits réservés.</p>
-        <p>Conçu avec passion<img src={heart_icon} alt="" /></p>
+        <p>Conçu avec passion<img src={heart_icon} alt="cœur" /></p>
         
       </div>
     </section>
