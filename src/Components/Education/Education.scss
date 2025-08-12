@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: auto 170px;
+    margin: auto 10%;
     .education__title {
         position: relative;
         h1 {
@@ -35,7 +35,6 @@
             border-radius: 10px;
             border: 2px solid white;
             transition: 0.4s;
-            max-width: 300px;
             h3 {
                 font-size: 15px;
                 font-weight: 600;
@@ -77,11 +76,16 @@
     .education {
         align-items: start;
         gap: 70px;
-        margin: auto 70px;
-        .education__title h1{
-            padding: 0;
-            font-size: 50px;
-            margin-right: -20px;
+        margin: 50px 6%;
+        .education__title {
+            h1{
+                padding: 0;
+                font-size: 50px;
+            }
+            img {
+                width: 130px;
+                right: -20px;
+            }
         }
         .education__container {
             grid-template-columns: 1fr;
@@ -89,6 +93,7 @@
             .education__format {
                 gap: 20px;
                 padding: 32px;
+                width: 80%;
                 h3 {
                     font-size: 13px; 
                 }

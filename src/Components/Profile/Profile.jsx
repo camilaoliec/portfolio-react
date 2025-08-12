@@ -1,6 +1,7 @@
 import React from "react";
 import "./Profile.scss";
 import profile_img from "../../assets/profile_img.svg";
+import curriculum from "../../../public/Développeuse web - cv - Camila Medeiros.pdf"
 
 const Profile = () => {
   return (
@@ -12,7 +13,7 @@ const Profile = () => {
       </p>
       <div className="profile__action">
         <a href="#Contact" className="profile__connect">Contactez-moi</a>
-        <a className="profile__resume">Télécharger mon CV</a>
+        <a className="profile__resume" href={curriculum} target="_blank" rel="noopener noreferrer">Télécharger mon CV</a>
       </div>
     </section>
   );

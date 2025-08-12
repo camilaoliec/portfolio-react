@@ -57,6 +57,8 @@
       border: 2px solid #fff;
       cursor: pointer;
       width: 250px;
+      text-decoration: none;
+      color: white;
     }
     .profile__resume:hover {
       border-color: #b415ff;
@@ -97,5 +99,15 @@
       }
     }
 
+  }
+}
+@media(max-width:1040px){
+  .profile .profile__action {
+   .profile__connect {
+    width: 250px;
+   }
+   .profile__resume {
+    width: 220px;
+   }
   }
 }

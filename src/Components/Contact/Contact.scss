@@ -115,7 +115,7 @@
 @media(max-width:1200px) {
     .contact {
         gap: 50px;
-        margin: auto 70px;
+        margin: auto 6%;
         align-items: start;
         .contact__title {
             h1 {
@@ -142,6 +142,7 @@
                 }
             }
             .contact__right {
+                margin: 0 6% 0 0;
                 label {
                     font-size: 20px;
                 }
@@ -150,7 +151,7 @@
                     font-size: 20px;
                 }
                 textarea {
-                    width: 95%;
+                    width: 100%;
                     font-size: 20px;
                 }
             }
@@ -160,4 +161,9 @@
             }
         }
     }
+}
+@media(max-width:768px) {
+        .contact .contact__section .contact__right textarea {
+            width: 90%;
+        }
 }

@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section id='Apropos' className='about'>
         <div className="about__title">
-            <h1>À propos de moi</h1>
+            <h1>À propos</h1>
             <img src={theme_pattern} alt="" />
         </div>
         <div className="about__sections">

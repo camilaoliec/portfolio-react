@@ -38,27 +38,33 @@
                     transition: 0.3s;
                 }
             }
-            .project__description {
-                margin: 40px 0px;
+            .project__box {
                 display: flex;
                 flex-direction: column;
-                gap: 20px;
-                height: auto;
-                h2 {
-                    font-family: 'outfit';
-                    font-size: 22px;
+                gap: 50px;
+                .project_description {
+                    margin: 40px 0px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    height: 160px;
+                    h2 {
+                        font-family: 'outfit';
+                        font-size: 22px;
+                    }
+                    p {
+                        font-family: 'outfit';
+                        font-weight: 400;
+                        font-size: 18px;
+                    }
+                    h4 {
+                        font-size: 'outfit';
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: #d8d8d8;
+                    } 
                 }
-                p {
-                    font-family: 'outfit';
-                    font-weight: 400;
-                    font-size: 18px;
-                }
-                h4 {
-                    font-size: 'outfit';
-                    font-weight: 400;
-                    font-size: 15px;
-                    color: #d8d8d8;
-                }
+                
                 .project__links {
                     display: flex;
                     flex-direction: column;
@@ -99,19 +105,25 @@
         gap: 50px;
         margin: auto 6%;
         align-items: start;
+        .myprojects__title {
+            h1 {
+                padding: 0;
+                font-size: 50px;
+                font-weight: 600;
+            }
+        }
+        img {
+            width: 130px;
+            margin-right: -20px;
+        }
         .myprojects__container {
             grid-template-columns: 1fr;
-            gap: 20px;
-            .myprojects__title {
-                h1 {
-                    padding: 0;
-                    font-size: 50px;
-                    font-weight: 600;
+            gap: 40px;
+            .project .project__box {
+                gap: 10px;
+                .project_description {
+                    height: 200px;
                 }
-            }
-            img {
-                width: 130px;
-                margin-right: -20px;
             }
         }
     }
