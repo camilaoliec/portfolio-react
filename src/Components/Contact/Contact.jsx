@@ -51,7 +51,7 @@ export default function Contact() {
                 </div>
                 <div className="contact__detail">
                     <img src={call_icon} alt="telephone" />
-                    <p>+33 6 08 00 73 62</p>
+                    <p>+33 x xx xx xx xx</p>
                 </div>
                 <div className='contact__detail'>
                   <img src={linkedin_icon} alt="Linkedin" />
