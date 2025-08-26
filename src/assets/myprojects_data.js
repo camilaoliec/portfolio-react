@@ -1,8 +1,8 @@
-import project1_img from '../assets/project_04.svg'
-import project2_img from '../assets/project_06.svg'
-import project3_img from '../assets/project_07.svg'
-import project4_img from '../assets/project_08.svg'
-import project5_img from '../assets/project_10.svg'
+import project1_img from '../assets/project_04.webp'
+import project2_img from '../assets/project_06.webp'
+import project3_img from '../assets/project_07.webp'
+import project4_img from '../assets/project_08.webp'
+import project5_img from '../assets/project_10.webp'
 
 const myprojects_data = [
     {

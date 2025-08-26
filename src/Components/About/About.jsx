@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.scss'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import about_profile from '../../assets/about_profile.svg'
+import about_profile from '../../assets/about_profile.webp'
 import theater_masks from  '../../assets/theater_masks.svg'
 import paint_pallette from '../../assets/paint_pallette.svg'
 import brain_icon from '../../assets/brain_icon.svg'
