@@ -11,7 +11,12 @@ const About = () => {
     <section id='Apropos' className='about'>
         <div className="about__title">
             <h1>À propos</h1>
-            <img src={theme_pattern} alt="" />
+            <img 
+                src={theme_pattern} alt="" 
+                width={227}
+                height={72}
+                decoding="async"
+            />
         </div>
         <div className="about__sections">
             <div className="about__left">
